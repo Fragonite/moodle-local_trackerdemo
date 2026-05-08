@@ -15,14 +15,21 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Plugin strings are defined here.
+ * Tag areas in component local_trackerdemo.
  *
- * @package     local_activityintro
- * @category    string
- * @copyright   2024 Catalyst IT Australia
+ * @package     local_trackerdemo
+ * @copyright   2026 Catalyst IT Australia Pty Ltd
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Tracker Demo';
+$tagareas = [
+    [
+        'itemtype' => 'trackerdemo_item',
+        'component' => 'local_trackerdemo',
+        'collection' => 'trackerdemo',
+        'searchable' => 0,
+        'showstandard' => core_tag_tag::STANDARD_ONLY,
+    ],
+];

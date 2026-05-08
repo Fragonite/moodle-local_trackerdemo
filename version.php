@@ -17,15 +17,15 @@
 /**
  * Plugin version and other meta-data are defined here.
  *
- * @package     local_activityintro
- * @copyright   2024 Catalyst IT Australia
+ * @package     local_trackerdemo
+ * @copyright   2026 Catalyst IT Australia
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'local_tracker_demo';
+$plugin->component = 'local_trackerdemo';
 $plugin->release = '0.1.0';
-$plugin->version = 2024021402;
+$plugin->version = 2026050800;
 $plugin->requires = 2022112800;
 $plugin->maturity = MATURITY_ALPHA;

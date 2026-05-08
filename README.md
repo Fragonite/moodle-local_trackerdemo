@@ -1,6 +1,13 @@
-# Activity Intro #
+# Tracker Demo #
 
-This is a dummy Moodle plugin to demonstrate tracker issues and fixes.
+This is a minimal Moodle local plugin used to demonstrate tracker issues around
+tag area and tag collection setup.
+
+The plugin defines a dedicated tag area in `db/tag.php`:
+
+- `component`: `local_trackerdemo`
+- `itemtype`: `trackerdemo_item`
+- `collection`: `trackerdemo`
 
 ## Installing via uploaded ZIP file ##
 
@@ -14,7 +21,7 @@ This is a dummy Moodle plugin to demonstrate tracker issues and fixes.
 
 The plugin can be also installed by putting the contents of this directory to
 
-    {your/moodle/dirroot}/local/tracker_demo
+    {your/moodle/dirroot}/local/trackerdemo
 
 Afterwards, log in to your Moodle site as an admin and go to _Site administration >
 Notifications_ to complete the installation.
